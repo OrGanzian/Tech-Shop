@@ -1,0 +1,175 @@
+/* #5390d9 */
+/* #5e60ce */
+/* #171717 */
+/* white */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+h3,
+h2 {
+  margin-bottom: 15px;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+.page-container {
+  width: 75%;
+  margin: 0 auto;
+}
+.header-grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  gap: 80px;
+  align-items: center;
+  margin-bottom: 170px;
+  margin-top: 60px;
+}
+
+.header-grid-container img {
+  width: 500px;
+  height: auto;
+}
+
+.haeder-main {
+  margin-bottom: 20px;
+}
+.header-main {
+  font-weight: 100px;
+  letter-spacing: -1px;
+}
+
+.shop-now-btn {
+  margin-top: 20px;
+  padding: 10px 10px;
+  font-size: large;
+}
+
+.feature-header {
+  margin-bottom: 48px;
+}
+.features-grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 80px;
+  margin-bottom: 85px;
+}
+.feature-icon {
+  display: block;
+  font-size: 48px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.info-text-grid-container {
+  align-items: center;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  margin-bottom: 85px;
+}
+
+.info-text {
+  padding-left: 10%;
+}
+
+.info-text h3 {
+  font-size: 30px;
+}
+
+.info-text-grid-container img {
+  width: 300px;
+  height: auto;
+}
+
+.quote {
+  font-style: italic;
+  font-size: 20px;
+}
+
+.best-selling-container {
+  margin-bottom: 36px;
+}
+.cards-grid-container {
+  display: grid;
+  margin-top: 25px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 80px;
+  justify-items: center;
+}
+
+.best-selling-container img {
+  width: 250px;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.card {
+  background-color: #5e60ce13;
+  border-radius: 10px;
+  box-shadow: 0px 10px 25px rgba(255, 255, 255, 0.527);
+}
+
+.card-text {
+  margin-left: 10px;
+}
+.card img {
+  border-radius: 10px;
+  height: 230px;
+  width: 250px;
+}
+.card ul {
+  list-style: none;
+  margin-bottom: 25px;
+  line-height: 2.5;
+  border-radius: 4px;
+  padding-bottom: 10px;
+}
+
+.card-price-info {
+  background-color: #5e60ce13;
+  display: flex;
+  justify-content: space-evenly;
+}
+.price {
+  font-weight: bold;
+  align-items: center;
+}
+
+.shipping {
+  color: rgba(255, 255, 255, 0.521);
+}
+
+.discount {
+  background-color: crimson;
+  color: aliceblue;
+  display: inline-block;
+  padding: 6px;
+  position: absolute;
+  margin-left: -50px;
+  margin-top: -10px;
+  border-radius: 2px;
+}
+
+.card-img-right {
+  position: relative;
+}
+
+.card-mid-img {
+  height: 300px;
+}
+
+footer {
+  margin-top: 90px;
+  text-align: center;
+}
