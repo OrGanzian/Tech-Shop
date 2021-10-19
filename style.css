@@ -27,6 +27,7 @@ p {
 .page-container {
   width: 75%;
   margin: 0 auto;
+  border-bottom: 10px solid plum;
 }
 .header-grid-container {
   display: grid;
@@ -54,6 +55,14 @@ p {
   margin-top: 20px;
   padding: 10px 10px;
   font-size: large;
+}
+.shop-now-btn:hover {
+  margin-top: 20px;
+  padding: 10px 10px;
+  font-size: large;
+  background-color: black;
+  color: plum;
+  cursor: pointer;
 }
 
 .feature-header {
@@ -95,6 +104,7 @@ p {
 .quote {
   font-style: italic;
   font-size: 20px;
+  color: plum;
 }
 
 .best-selling-container {
@@ -125,8 +135,8 @@ p {
 }
 .card img {
   border-radius: 10px;
-  height: 230px;
-  width: 250px;
+  height: 200px;
+  width: 220px;
 }
 .card ul {
   list-style: none;
