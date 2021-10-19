@@ -63,6 +63,8 @@ p {
   background-color: black;
   color: plum;
   cursor: pointer;
+  border: none;
+  border: 0.1px solid plum;
 }
 
 .feature-header {
