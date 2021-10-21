@@ -183,7 +183,41 @@ p {
 .card-mid-img {
   height: 300px;
 }
+.acordions-container {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.acordion-item {
+  display: grid;
+  background-color: rgba(221, 160, 221, 0.11);
+  column-gap: 60px;
+  row-gap: 15px;
+  padding: 25px;
+  grid-template-columns: auto 1fr auto;
+}
+.open-acordion {
+  border-top: 4px solid plum;
+}
 
+.open-acordion .acordion-text {
+  display: block;
+}
+.open-icon {
+  cursor: pointer;
+  font-size: 36px;
+}
+.acordion-text {
+  grid-column: 2/3;
+  display: none;
+}
+.acordion-text ul {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 20px;
+}
 footer {
   margin-top: 120px;
   text-align: center;
